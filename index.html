@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+</head>
+
+<body>
+    <p id="iniURL">Ini adalah URL dari halaman ini</p>
+    <button onclick="tombol()">Dapatkan URL</button>
+
+    <script>
+        function tombol() {
+            var x = location.href;
+        document.getElementById("iniURL").innerHTML = x;
+        }
+        
+    </script>
+</body>
+
+</html>
